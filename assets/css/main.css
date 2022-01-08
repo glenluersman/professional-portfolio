@@ -2924,7 +2924,11 @@ body.is-touch .tiles article .content {
     width: 100%;
     margin: 1.25em 0 0 0;
   }
-}
+
+  .content {
+    background-color: #333333;
+    opacity: 0.95;
+  }
 
 /* Header */
 

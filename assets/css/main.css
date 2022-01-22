@@ -88,7 +88,7 @@ time,
 mark,
 audio,
 video {
-  margin: 5px;
+  margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -111,6 +111,7 @@ section {
 }
 
 body {
+  margin: 5px;
   line-height: 1;
 }
 

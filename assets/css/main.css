@@ -111,7 +111,7 @@ section {
 }
 
 body {
-  margin: 5px;
+  margin: 1px;
   line-height: 1;
 }
 
@@ -3428,6 +3428,6 @@ body.is-menu-visible #menu .close {
 
 @media screen and (max-width: 736px) {
   #wrapper > * > .inner {
-    padding: 0 1.25em;
+    padding: 0 2px;
   }
 }

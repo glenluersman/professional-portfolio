@@ -36,7 +36,7 @@ This is my portfolio of past work. At the top of the page is a brief description
 ## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
 
 - HTML
-- CSS/SCSS
+- CSS/SASS
 - Javascript
 
 ## <img id="authors" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/authors.png?raw=true" style="height: 40px">
@@ -49,8 +49,8 @@ This is my portfolio of past work. At the top of the page is a brief description
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
-<img style="margin: 0 0 15px 0" src="./images/portfolio1.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="./images/new-port1.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/portfolio2.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="./images/new-port2.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="./images/portfolio3.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="./images/new-port3.PNG" ></a>

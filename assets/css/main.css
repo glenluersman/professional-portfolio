@@ -1620,6 +1620,10 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	article p {
+		font-weight: 900;
+	}
+
 /* Image */
 
   .imgWrap img {
@@ -1895,7 +1899,11 @@ input, select, textarea {
 					background-color: #FE5419;
 				}
 
-				ul.social li a.fa-youtube {
+				ul.social li a.fa-arrow-up-right-from-square {
+					background-color: #BF2E25;
+				}
+
+				ul.social li a.fa-envelope {
 					background-color: #BF2E25;
 				}
 
@@ -1966,6 +1974,14 @@ input, select, textarea {
 		}
 
 /* Icons */
+
+.email {
+	text-decoration: none;
+}
+
+.arrow {
+	text-decoration: none;
+}
 
 .icon {
 		text-decoration: none;

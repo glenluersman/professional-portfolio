@@ -1,6 +1,35 @@
+/* General Styles */
+
 body {
   background-color: rgb(53, 53, 53);
 }
+
+.head {
+  background-image: url(../images/ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg);
+  background-position: cover;
+}
+
+.info {
+  background-image: url(../images/ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg);
+  background-position: cover;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding: 50px;
+  font-weight: 600;
+  text-shadow: 2px 2px 1px #111;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+/* End General Styles */
+
+/* Header Styles */
 
 header {
   display: flex;
@@ -39,6 +68,10 @@ header nav ul li a:hover {
   color: #2d628a;
 }
 
+li {
+  list-style-type: none;
+}
+   
 nav span {
   color: white;
   font-size: 32px;
@@ -49,14 +82,9 @@ nav span {
   text-decoration: none;
 }
 
-h2 {
-  color: white;
-  font-size: 45px;
-  text-align: center;
-  padding: 50px;
-  font-weight: 600;
-  text-shadow: 2px 2px 1px #111;
-}
+/* End Header Styles */
+
+/* About Section Styles */
 
 div .imgdiv {
   display: flex;
@@ -64,47 +92,6 @@ div .imgdiv {
   justify-content: center;
   width: 100%;
   height: auto;
-}
-
-li {
-  list-style-type: none;
-}
-
-.head {
-  background-image: url(../images/ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg);
-  background-position: cover;
-}
-
-.info {
-  background-image: url(../images/ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg);
-  background-position: cover;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-}
-
-.icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: auto 5px 10px 5px;
-}
-
-.icon a {
-  padding: 0 25px;
-  font-size: 60px;
-  color: #111;
-  transition: 0.3s ease-in-out;
-}
-
-.icon a:hover {
-  color: #2d628a;
-}
-
-.name {
-  text-decoration: none;
 }
 
 .imgdiv {
@@ -134,16 +121,9 @@ footer {
   color: white;
 }
 
-p {
-  margin-bottom: 50px;
-}
+/* End About Section Styles */
 
-.navLink {
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-}
+/* Portfolio Section Styles */
 
 .container {
   display: flex;
@@ -173,10 +153,6 @@ p {
   /* transition: 0.3s ease-in-out; */
 }
 
-/* .image:hover {
-  transform: scale(1.1);
-} */
-
 .description {
   margin: 5px;
   font-size: 20px;
@@ -187,13 +163,17 @@ p {
   margin: 10px 5px 0 5px;
 }
 
+/* End Portfolio Section Styles */
+
+/* Resume Section Styles */
+
 .res {
   text-align: center;
 }
 
-.doc {
-  text-align: center;
-}
+/* End Resume Section Styles */
+
+/* Contact Styles */
 
 .contact {
   text-align: center;
@@ -213,6 +193,28 @@ p {
   margin: 0;
 }
 
+/* End Contact Styles */
+
+/* Icon Styles */
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto 5px 10px 5px;
+}
+
+.icon a {
+  padding: 0 25px;
+  font-size: 60px;
+  color: #111;
+  transition: 0.3s ease-in-out;
+}
+
+.icon a:hover {
+  color: #2d628a;
+}
+
 .icons {
   display: flex;
   justify-content: left;
@@ -220,12 +222,6 @@ p {
 
 .icons li {
   margin: 0 50px;
-}
-
-.center {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .label:hover {
@@ -237,6 +233,17 @@ p {
   color: white !important;
   transition: 0.3s ease-in-out;
 }
+
+/* Icon Styles */
+
+/* Footer Styles */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer Styles */
 
 @media screen and (max-width: 1324px) {
   header {

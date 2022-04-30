@@ -1,5 +1,5 @@
-html {
-  background-color: #333333;
+body {
+  background-color: rgb(78, 77, 77);
 }
 
 header {
@@ -11,6 +11,7 @@ header {
 
 header h1 {
   font-size: 55px;
+  text-shadow: 2px 2px 1px #111;
   color: white;
   margin-left: 25px;
 }
@@ -25,6 +26,8 @@ header nav ul {
 
 header nav ul li a {
   font-size: 32px;
+  font-weight: 700;
+  text-shadow: 2px 2px 1px #111;
   text-decoration: none;
   cursor: pointer;
   color: white;
@@ -39,6 +42,8 @@ header nav ul li a:hover {
 nav span {
   color: white;
   font-size: 32px;
+  font-weight: 600;
+  text-shadow: 2px 2px 1px #111;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
@@ -46,9 +51,11 @@ nav span {
 
 h2 {
   color: white;
-  font-size: 45px;
+  font-size: 45px !important;
   text-align: center;
-  margin: 50px;
+  padding: 50px;
+  font-weight: 600;
+  text-shadow: 2px 2px 1px #111;
 }
 
 div .imgdiv {
@@ -63,13 +70,14 @@ li {
   list-style-type: none;
 }
 
-form {
-  text-align: center;
+.head {
+  background-image: url(../images/ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg);
+  background-position: cover;
 }
 
-iframe {
-  width: 850px;
-  height: 1130px;
+.info {
+  background-image: url(../images/ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg);
+  background-position: cover;
 }
 
 footer {
@@ -81,7 +89,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: auto;
+  margin: auto 5px 10px 5px;
 }
 
 .icon a {
@@ -100,6 +108,7 @@ footer {
 }
 
 .imgdiv {
+  margin-top: 50px;
   max-width: 50%;
 }
 
@@ -108,6 +117,7 @@ footer {
   height: auto;
   background-size: cover;
   border-radius: 100%;
+  box-shadow: 2px 2px 10px #111;
 }
 
 .about {
@@ -118,10 +128,14 @@ footer {
 
 .about div {
   font-size: 23px;
+  font-weight: 600;
   text-align: center;
-  /* max-width: 50%; */
-  margin: 50px;
+  text-shadow: 2px 2px 1px #111;
   color: white;
+}
+
+p {
+  margin-bottom: 50px;
 }
 
 .navLink {
@@ -146,8 +160,9 @@ footer {
   border: 1px solid #111;
   margin: 10px;
   color: #111;
-  background-color: white;
-  width: 25%;
+  background-image: url(../images/pic05.jpg);
+  width: 30%;
+  box-shadow: 2px 2px 10px #111;
 }
 
 .image {
@@ -163,41 +178,17 @@ footer {
 } */
 
 .description {
+  margin: 5px;
   font-size: 20px;
 }
 
 .title {
   font-size: 35px;
-  margin-bottom: 0;
+  margin: 10px 5px 0 5px;
 }
 
 .res {
   text-align: center;
-}
-
-.proficiency {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-
-}
-
-.front {
-  font-size: 30px;
-  color: white;
-}
-
-.back {
-  font-size: 30px;
-  color: white;
-}
-
-.front li {
-  list-style: disc;
-}
-
-.back li {
-  list-style: disc;
 }
 
 .doc {
@@ -212,63 +203,14 @@ footer {
 .form {
   text-align: center;
   font-size: 45px;
+  font-weight: 600;
+  text-shadow: 2px 2px 1px #111;
   color: white;
 }
 
 .contact h2 {
   font-size: 25px;
   margin: 0;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 30%;
-  border: 1px solid black;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: black;
-  margin-bottom: 15px;
-  margin-top: 5px;
-  margin: 5px auto 15px auto;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: none;
-}
-
-.contact-form button {
-  cursor: pointer;
-  border: none;
-  background: #095793;
-  color: white;
-  width: 15%;
-  padding: 15px 0;
-  font-size: 20px;
-  font-weight: bold;
-  transition: 0.3s ease-in-out;
-}
-
-.contact-form button:hover {
-  color: white;
-  background: #2d628a;
-}
-
-.contact-form label {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-}
-
-.contact-form {
-  margin: 50px 0;
-}
-
-.error-text {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
 }
 
 .icons {
@@ -294,12 +236,6 @@ footer {
   font-size: 60px;
   color: white !important;
   transition: 0.3s ease-in-out;
-}
-
-.navActive {
-  font-size: 32px;
-  font-weight: bold;
-  color: black;
 }
 
 @media screen and (max-width: 1324px) {
